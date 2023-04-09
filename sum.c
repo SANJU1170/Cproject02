@@ -1,5 +1,5 @@
 #include<stdio.h>
-sum()
+add()
 {
   int Number, i, Sum = 0;
   
