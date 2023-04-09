@@ -3,7 +3,7 @@ add()
 {
   int Number, i, Sum = 0;
   
-  printf("\nPlease Enter any Integer Value\n");
+  printf("\nPlease enter any Integer Value\n");
   scanf("%d", &Number);
   
   for(i = 1; i <= Number; i++)
