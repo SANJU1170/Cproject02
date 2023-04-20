@@ -1,7 +1,7 @@
-       pipeline {
+pipeline {
           agent {label 'slave1'}
 		stages {
-			stage ('BUILD')
+			stage ('BUILD'){
 				parallel {
 				
 			 stage ('BUILD-01-JOB-01'){
@@ -21,3 +21,4 @@
 				}
 	      }
 		 }
+	   }
